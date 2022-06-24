@@ -16,3 +16,34 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+.timer {
+  display: flex;
+  margin: 20px;
+
+}
+
+.field {
+
+  border-radius: 20px;
+  margin: 20px;
+  background-color: #ffff;
+
+}
+
+.value {
+  font-size: 40px;
+  color: yellow;
+}
+
+.label {
+  font-size: 20px;
+  color: blue;
+  padding: 30px;
+}
+
+span {
+  display: block;
+  text-align: center;
+}
