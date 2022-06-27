@@ -34,6 +34,7 @@ flatpickr('#datetime-picker', {
       btnStart.disabled = true;
     } else {
       btnStart.disabled = false;
+      inputDate.disabled = true;
     }
   },
 });
@@ -56,7 +57,7 @@ function onClickStart(event) {
       clearInterval(timerId);
       btnStart.disabled = true;
     }
-  }, 1000);
+  });
 }
 
 function convertMs(ms) {
